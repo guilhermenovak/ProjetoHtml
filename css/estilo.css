@@ -1,0 +1,191 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    background-color: black;
+}
+
+nav#topo{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    height: 30%;
+    margin: auto;
+    justify-content: space-between;
+    background-color: grey;
+}
+
+nav#topo ul > li{
+    display: inline-block;
+    padding: 10px;
+}
+
+nav#topo ul > li > a{
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+article{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+article#equipe{
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+
+#banner{
+    background-image: url(../img/banner.jpg);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#banner > h2{
+    color: white;
+    font-size: 2.0rem;
+}
+
+article#funcionaria-1{
+    height: 300px;
+    width: 300px;
+    background-color: #c14000;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: white;
+}
+
+article#funcionaria-2{
+    height: 300px;
+    width: 300px;
+    background-color: #009987;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: white;
+}
+
+article#funcionaria-3{
+    height: 300px;
+    width: 300px;
+    background-color: #FFAA00;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: white;
+}
+
+article#funcionaria-1 > p{
+    text-align: center;
+    margin: 0 20px 40px 20px;
+}
+
+article#funcionaria-2 p{
+    text-align: center;
+    margin: 0 20px 40px 20px;
+}
+
+#julia{
+    display: flex;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+}
+
+#marisa{
+    display: flex;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+}
+
+#marta{
+    display: flex;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+}
+
+#borda{
+    height: 100px;
+    width: 310px;
+    background-color: rgb(255, 255, 255);
+}
+
+button{
+    background-color: transparent;
+    border-color: white;
+    color: white;
+}
+
+.btn-linkedin a{
+    width: 180px;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    color: white;
+}
+
+.btn-linkedin {
+    width: 180px;
+    height: 40px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid white;
+    color: white;
+}
+
+.btn-linkedin img{
+    width: 25px;
+}
+
+#funcionaria-3 p{
+    text-align: center;
+    margin: 0 20px 40px 20px;
+}
+
+div{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px auto;
+}
+
+#nosso-negocio{
+    height: 200px;
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    background-color: white;
+}
+
+#textos{
+    text-align: center;
+}
+
+#nosso-negocio img{
+    height: 200px;
+}
